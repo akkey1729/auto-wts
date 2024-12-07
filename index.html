@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AutoWTS Web</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="outer">
+            <div class="main">
+                <h2>AutoWTS - Web</h2>
+                <hr>
+                <div class="input-group mb-3">
+                    <span class="input-group-text">TOKEN</span>
+                    <input type="text" class="form-control" placeholder="TOKEN" aria-label="TOKEN" aria-describedby="basic-addon1" id="token">
+                </div>
+                <hr>
+                <div class="input-group">
+                    <span class="input-group-text">Channels</span>
+                    <textarea class="form-control" aria-label="Channels" id="channels"></textarea>
+                </div>
+                <hr>
+                <div class="input-group">
+                    <span class="input-group-text">Content</span>
+                    <textarea class="form-control" aria-label="Content" id="content"></textarea>
+                </div>
+                <hr>
+                <div class="d-grid gap-2">
+                    <button class="btn btn-primary" type="button" id="run">Run</button>
+                    <hr>
+                    <button class="btn btn-primary" type="button" id="save">Save</button>
+                    <button class="btn btn-primary" type="button" id="load">Load</button>
+                </div>
+            </div>
+        </div>
+        <script src="https://riversun.github.io/jsframe/jsframe.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+    </body>
+</html>
